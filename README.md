@@ -214,3 +214,23 @@ app/src/main/java/app/pingvanta/
 app/src/test/         JVM unit tests
 app/src/androidTest/  instrumented engine and Compose UI tests
 ```
+
+## Contributing
+
+Issues and pull requests are welcome. Before opening a pull request, please make sure the project
+builds (`./gradlew assembleDebug`) and the unit tests pass (`./gradlew testDebugUnitTest`).
+
+## License
+
+Copyright (C) 2026 MARIOREDFOX
+
+Pingvanta is free software: you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation, version 3.
+
+Pingvanta is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+[LICENSE](LICENSE) file for the full text.
+
+Third-party components: AndroidX, Jetpack Compose, Room, WorkManager, Kotlin, kotlinx.coroutines and
+OkHttp are licensed under the Apache License 2.0. Some icon shapes are from Google's Material
+Icons (Apache License 2.0).
