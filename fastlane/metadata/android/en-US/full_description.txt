@@ -1,0 +1,25 @@
+Pingvanta is a personal uptime monitor that runs entirely on your phone. Add websites, TCP ports or hosts to ping, and it checks them in the background and tells you when their availability changes.
+
+<b>Monitoring</b>
+* HTTP(S) checks with configurable expected status codes
+* TCP port checks
+* ICMP ping checks
+* Per-monitor interval and timeout
+
+<b>Alerts</b>
+* Notification when a monitor goes down and when it comes back
+* Optional loud alarm on the alarm volume, with repeat until acknowledged
+* One alert per status change, never for repeated identical results
+* No false "everything is down" alerts when the phone itself is offline
+
+<b>History</b>
+* Response-time chart and hourly availability for the last 24 hours
+* Uptime for the last 24 hours, 7 days and 30 days
+* Outage list with durations and total downtime
+* Export history as CSV, import and export monitors as JSON
+
+<b>Private by design</b>
+* No account, no server, no analytics, no ads
+* The only network requests are the checks you configure
+
+Checks at intervals under 15 minutes use a foreground service with an ongoing notification, because Android does not allow more frequent background jobs. For reliable alerts while the phone sleeps, allow unrestricted battery use in the app's settings.

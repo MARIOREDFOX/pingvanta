@@ -1,0 +1,1 @@
+First release: HTTP, TCP and ping monitors, notifications and alarm, uptime history and charts, import and export.
